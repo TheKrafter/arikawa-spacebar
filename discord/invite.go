@@ -39,7 +39,7 @@ func (i Invite) URL() string {
 
 // LongURL returns a long-form Discord invite URL linking to the invite.
 func (i Invite) LongURL() string {
-	return "https://discord.com/invite/" + i.Code
+	return "https://app.spacebar.chat/invite/" + i.Code
 }
 
 // https://discord.com/developers/docs/resources/invite#invite-object-target-user-types

@@ -13,7 +13,7 @@ import (
 )
 
 var (
-	BaseEndpoint = "https://discord.com"
+	BaseEndpoint = "https://api.old.server.spacebar.chat"
 	Version      = "9"
 	Path         = "/api/v" + Version
 

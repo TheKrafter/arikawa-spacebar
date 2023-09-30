@@ -34,7 +34,7 @@ type Invite struct {
 
 // URL returns a Discord invite URL linking to the invite.
 func (i Invite) URL() string {
-	return "https://discord.gg/" + i.Code
+	return "https://app.spacebar.chat/invite/" + i.Code
 }
 
 // LongURL returns a long-form Discord invite URL linking to the invite.
